@@ -1,5 +1,9 @@
 # MaskedFaceRecognition
 
+![image](https://user-images.githubusercontent.com/77621697/180694140-8d2bd4bc-03f3-4e2c-87c1-0d613e518dd1.png)
+
+The above image shows the flowchart of how the model works.
+
 The attached code verifies the masked and unmasked images of a person and returns true if they are the same person else false. The model works in the following way:
   1. Detect unmasked face of an individual and superimpose the lower part of a stock image onto the lower part of the unmasked face.
   2. Superimpose the lower part of stock image onto the masked part of the masked image by detecting the mask.
